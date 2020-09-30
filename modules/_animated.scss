@@ -1,0 +1,19 @@
+
+
+@keyframes sky--ui-loader {
+  0% {
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: rotate(495deg);
+  }
+}
+
+@keyframes sky--ui-loader__back {
+  0% {
+    transform: rotate(135deg);
+  }
+  100% {
+    transform: rotate(-225deg);
+  }
+}

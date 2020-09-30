@@ -1,0 +1,190 @@
+/* UI BUTTONS */
+.btn {
+  font-size: rem(16);
+  line-height: rem(26);
+  transition: all .7s ease-in-out;
+
+  &:focus {
+    box-shadow: none;
+    outline: none;
+  }
+}
+/* END UI BUTTONS */
+
+/* UI IMAGES */
+.sky--ui-logo__5 {
+  img {
+    width: 5%;
+  }
+}
+
+.sky--ui-logo__10 {
+  img {
+    width: 10%;
+  }
+}
+
+.sky--ui-logo__15 {
+  img {
+    width: 15%;
+  }
+}
+
+.sky--ui-logo__25 {
+  img {
+    width: 25%;
+  }
+}
+
+.sky--ui-logo__30 {
+  img {
+    width: 30%;
+  }
+}
+
+.sky--ui-logo__40 {
+  img {
+    width: 40%;
+  }
+}
+
+.sky--ui-logo__50 {
+  img {
+    width: 50%;
+  }
+}
+
+.sky--ui-logo__70 {
+  img {
+    width: 70%;
+  }
+}
+
+.sky--ui-logo__90 {
+  img {
+    width: 90%;
+  }
+}
+/* END UI IMAGES */
+
+/* UI TABLES */
+/* END UI TABLES */
+
+/* UI MODAL */
+/* END UI MODAL */
+
+/* UI TOOLTIP */
+/* END UI TOOLTIP */
+
+/* UI LOADER */
+.sky--ui-loader__container {
+  background-color: rgba(0, 0, 0, 0.1);
+  filter: grayscale(100%);
+  height: 100vh;
+  position: absolute;
+  width: 100vw;
+}
+
+.sky--ui-loader__global {
+  left: 0;
+  max-height: 140vh;
+  overflow: hidden;
+  position: fixed;
+  scroll-behavior: unset;
+  top: 0;
+  width: 100vw;
+}
+
+.sky--ui-loader__main {
+  position: relative;
+  width: 100%;
+
+  &:after {
+    content: '';
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  .sky--ui-loader__main-circle {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+
+    &.circle-100 {
+      height: 100%;
+      width: 100%;
+    }
+
+    &.circle-75 {
+      height: 75%;
+      width: 75%;
+
+      &:after,
+      &:before {
+        border-width: 5px;
+      }
+    }
+
+    &.circle-50 {
+      height: 50%;
+      width: 50%;
+
+      &:after,
+      &:before {
+        border-width: 4px;
+      }
+    }
+
+    &.circle-25 {
+      height: 25%;
+      width: 25%;
+
+      &:after,
+      &:before {
+        border-width: 3px;
+      }
+    }
+
+    &.circle-15 {
+      height: 15%;
+      width: 15%;
+
+      &:after,
+      &:before {
+        border-width: 2px;
+      }
+    }
+
+    &:after {
+      animation: sky--ui-loader__back 1.5s linear infinite;
+      border: 6px solid $colorDefault;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      border-radius: 50%;
+      content: ' ';
+      display: inline-block;
+      height: 100%;
+      margin: 8px;
+      position: absolute;
+      width: 100%;
+    }
+
+    &:before {
+      animation: sky--ui-loader 1.5s linear infinite;
+      border: 6px solid $colorDefault;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+      border-radius: 50%;
+      border-right-color: transparent;
+      content: ' ';
+      display: inline-block;
+      height: 100%;
+      margin: 8px;
+      position: absolute;
+      width: 100%;
+    }
+  }
+}
+/* END UI LOADER */

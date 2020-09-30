@@ -1,0 +1,20 @@
+// BOOTSTRAP
+// @import 'node_modules/bootstrap/scss/bootstrap';
+
+// CONFIG
+@import 'modules/_vars.scss';
+
+// CONFIG MODULES
+@import 'modules/_position.scss';
+@import 'modules/_normalize.scss';
+@import 'modules/_typography.scss';
+@import 'modules/_app.scss';
+@import 'modules/_animated.scss';
+
+// COMPONENTS
+@import 'components/_ui.scss';
+@import 'components/_utils.scss';
+@import 'components/_login.scss';
+@import 'components/_header.scss';
+@import 'components/_main.scss';
+@import 'components/_footer.scss';
