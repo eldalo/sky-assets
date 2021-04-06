@@ -1,11 +1,16 @@
+/* SPACING */
+$spaceAmounts: (0, 10, 15, 25, 30, 35, 40, 50);
+$sides: (top, bottom, left, right);
+/* END SPACING */
+
 /* COLORS */
-$colorDefault : #9D9D9D;
+$colorDefault: #9D9D9D;
 /* END COLORS */
 
 /* FONTS */
+$fontLight: 'Jost-Light', sans-serif;
 /* END FONTS */
 
 /* IMAGES */
-$img   : '../../images/';
-$imgBg : '../../images/backgrounds/';
+$imgBg: '../../images/backgrounds/';
 /* END IMAGES */
